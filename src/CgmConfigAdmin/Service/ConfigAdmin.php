@@ -261,7 +261,7 @@ class ConfigAdmin extends EventProvider implements ServiceManagerAwareInterface
     /**
      * @return string
      */
-    protected function getContextKey()
+    public function getContextKey()
     {
         $key = $this->context;
         if (isset($this->userId)) {
