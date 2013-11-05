@@ -60,7 +60,7 @@ class Module implements
     {
         return array(
             'invokables' => array(
-                'cgmconfigadmin'                    => 'CgmConfigAdmin\Service\ConfigAdmin',
+                //'cgmconfigadmin'                    => 'CgmConfigAdmin\Service\ConfigAdmin',
                 'cgmconfigadmin_form'               => 'CgmConfigAdmin\Form\ConfigOptionsForm',
                 'cgmconfigadmin_configgroup'        => 'CgmConfigAdmin\Model\ConfigGroup',
                 'cgmconfigadmin_configoption'       => 'CgmConfigAdmin\Model\ConfigOption',
